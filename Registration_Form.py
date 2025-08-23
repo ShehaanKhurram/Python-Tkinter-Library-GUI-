@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import Variable, messagebox
+from tkinter import messagebox
 
 root = tk.Tk()
 root.title("Registration Form")
@@ -59,4 +59,5 @@ tk.Button(submit_frame, text="Submit", width=20,bg="green",fg="white", command=s
 
 
 root.mainloop()
+
 
