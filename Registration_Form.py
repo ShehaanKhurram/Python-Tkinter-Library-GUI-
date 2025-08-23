@@ -1,5 +1,3 @@
-
-from statistics import variance
 import tkinter as tk
 from tkinter import Variable, messagebox
 
@@ -61,3 +59,4 @@ tk.Button(submit_frame, text="Submit", width=20,bg="green",fg="white", command=s
 
 
 root.mainloop()
+
