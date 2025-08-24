@@ -22,7 +22,7 @@ def word_count():
 def count(event=None):
     w_count = word_count()
     ch_count = len(textbox1.get("1.0","end-1c"))
-    words_label.config(text=f"words: {w_count}")
+    words_label.config(text=f"Words: {w_count}")
     counter_label.config(text=f"Characters: {ch_count}")
 
 textbox1.bind("<KeyRelease>", count)
@@ -43,3 +43,4 @@ exit_button = tk.Button(bottom_frame, text="Exit", command=exit_function, bg="gr
 exit_button.pack(side="bottom",pady=20)
 
 root.mainloop()
+
