@@ -29,7 +29,8 @@ counter_label.pack(side="top",pady=5)
 def exit_function():
     root.destroy()
 
-exit_button = tk.Button(bottom_frame, text="Exit", command=exit_function, bg="green", width=10,font=("Arial", 10))
+exit_button = tk.Button(bottom_frame, text="Exit", command=exit_function, bg="green", fg="white", width=10,font=("Arial", 10))
 exit_button.pack(side="bottom",pady=20)
+
 
 root.mainloop()
